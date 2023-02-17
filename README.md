@@ -1,6 +1,4 @@
-# MobileApplicationsDevelopment
-Materials to the course "Mobile Applications Development"
+# # # # Laboratory work on the course "Mobile application development"
 
-**@Lenmar Abdurayimov**  
+**@**@Ibragimov Eldar**  
 **2023**
-
