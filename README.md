@@ -1,4 +1,4 @@
 # Laboratory work on the course "Mobile application development"
 
-**@**@Ibragimov Eldar**  
+**@**Ibragimov Eldar
 **2023**
