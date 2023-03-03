@@ -74,7 +74,7 @@ public class Logic
      * <p>
      * We provide you this method that way we can test it with unit testing.
      */
-    public double calculate(int size, int count) {
+    public double calculate(int studentsCount, int attemptsCount) {
         Random random = new Random();
         int countOfDuplicate = 0;
 
