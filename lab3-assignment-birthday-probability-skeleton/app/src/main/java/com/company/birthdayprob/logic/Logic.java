@@ -75,8 +75,25 @@ public class Logic
      * We provide you this method that way we can test it with unit testing.
      */
     public double calculate(int size, int count) {
-        // TODO -- add your code here
+        Random random = new Random();
+        int countOfDuplicate = 0;
 
+        for (int i = 0; i < attemptsCount; i++) {
+            int birthdayCount[] = new int[365];
+            random.setSeed((i));
+
+            for (int j = 0; j < studentsCount; j++) {
+                int currentBirthday = random.nextInt(365);
+                birthdayCount[currentBirthday]++;
+
+                boolean isGreaterThanTwo = birthdayCount[currentBirthday] >= 2;
+                if(isGreaterThanTwo) {
+                    countOfDuplicate++;
+                    break;
+                }
+            }
+        }
+
+        return countOfDuplicate * 100.0 / attemptsCount;
     }
-    // TODO - add your code here
 }
