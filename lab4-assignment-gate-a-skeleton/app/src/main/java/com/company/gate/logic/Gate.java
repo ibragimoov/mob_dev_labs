@@ -4,7 +4,6 @@ package com.company.gate.logic;
  * This file defines the Gate class.
  */
 public class Gate {
-    // TODO -- Fill in your code here
     public static final int IN = 1;
     public static final int OUT = -1;
     public static final int CLOSED = 0;
